@@ -1,0 +1,315 @@
+src\minecraft\net\minecraft\block\Block.java:41: 错误: 类型ObjectIntIdentityMap不带有参数
+    public static final ObjectIntIdentityMap<IBlockState> BLOCK_STATE_IDS = new ObjectIntIdentityMap();
+                                            ^
+src\minecraft\net\minecraft\util\RegistryNamespaced.java:10: 错误: 类型ObjectIntIdentityMap不带有参数
+    protected final ObjectIntIdentityMap<V> underlyingIntegerMap = new ObjectIntIdentityMap();
+                                        ^
+src\minecraft\net\minecraft\world\biome\BiomeCache.java:15: 错误: 类型LongHashMap不带有参数
+    private LongHashMap<BiomeCache.Block> cacheMap = new LongHashMap();
+                       ^
+src\minecraft\net\minecraft\server\management\PlayerManager.java:26: 错误: 类型LongHashMap不带有参数
+    private final LongHashMap<PlayerManager.PlayerInstance> playerInstances = new LongHashMap();
+                             ^
+src\minecraft\net\minecraft\world\gen\ChunkProviderServer.java:47: 错误: 类型LongHashMap不带有参数
+    private LongHashMap<Chunk> id2ChunkMap = new LongHashMap();
+                       ^
+src\minecraft\net\minecraft\world\Teleporter.java:23: 错误: 类型LongHashMap不带有参数
+    private final LongHashMap<Teleporter.PortalPosition> destinationCoordinateCache = new LongHashMap();
+                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderPlayer.java:22: 错误: 类型RendererLivingEntity不带有参数
+public class RenderPlayer extends RendererLivingEntity<AbstractClientPlayer>
+                                                      ^
+src\minecraft\net\minecraft\client\multiplayer\ChunkProviderClient.java:27: 错误: 类型LongHashMap不带有参数
+    private LongHashMap<Chunk> chunkMapping = new LongHashMap();
+                       ^
+src\minecraft\net\minecraft\client\renderer\entity\ArmorStandRenderer.java:12: 错误: 类型RendererLivingEntity不带有参数
+public class ArmorStandRenderer extends RendererLivingEntity<EntityArmorStand>
+                                                            ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderArrow.java:12: 错误: 类型Render不带有参数
+public class RenderArrow extends Render<EntityArrow>
+                                       ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderBat.java:9: 错误: 类型RenderLiving不带有参数
+public class RenderBat extends RenderLiving<EntityBat>
+                                           ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderBiped.java:10: 错误: 类型RenderLiving不带有参数
+public class RenderBiped<T extends EntityLiving> extends RenderLiving<T>
+                                                                     ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderBlaze.java:7: 错误: 类型RenderLiving不带有参数
+public class RenderBlaze extends RenderLiving<EntityBlaze>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderBoat.java:10: 错误: 类型Render不带有参数
+public class RenderBoat extends Render<EntityBoat>
+                                      ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSpider.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderSpider<T extends EntitySpider> extends RenderLiving<T>
+                                                                      ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderChicken.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderChicken extends RenderLiving<EntityChicken>
+                                               ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderCow.java:7: 错误: 类型RenderLiving不带有参数
+public class RenderCow extends RenderLiving<EntityCow>
+                                           ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderCreeper.java:10: 错误: 类型RenderLiving不带有参数
+public class RenderCreeper extends RenderLiving<EntityCreeper>
+                                               ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderDragon.java:17: 错误: 类型RenderLiving不带有参数
+public class RenderDragon extends RenderLiving<EntityDragon>
+                                              ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderEnderman.java:12: 错误: 类型RenderLiving不带有参数
+public class RenderEnderman extends RenderLiving<EntityEnderman>
+                                                ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderEndermite.java:7: 错误: 类型RenderLiving不带有参数
+public class RenderEndermite extends RenderLiving<EntityEndermite>
+                                                 ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderEntity.java:7: 错误: 类型Render不带有参数
+public class RenderEntity extends Render<Entity>
+                                        ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderEntityItem.java:14: 错误: 类型Render不带有参数
+public class RenderEntityItem extends Render<EntityItem>
+                                            ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderFallingBlock.java:18: 错误: 类型Render不带有参数
+public class RenderFallingBlock extends Render<EntityFallingBlock>
+                                              ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderFireball.java:14: 错误: 类型Render不带有参数
+public class RenderFireball extends Render<EntityFireball>
+                                          ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderFish.java:13: 错误: 类型Render不带有参数
+public class RenderFish extends Render<EntityFishHook>
+                                      ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderGhast.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderGhast extends RenderLiving<EntityGhast>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderGiantZombie.java:11: 错误: 类型RenderLiving不带有参数
+public class RenderGiantZombie extends RenderLiving<EntityGiantZombie>
+                                                   ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderGuardian.java:18: 错误: 类型RenderLiving不带有参数
+public class RenderGuardian extends RenderLiving<EntityGuardian>
+                                                ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderHorse.java:12: 错误: 类型RenderLiving不带有参数
+public class RenderHorse extends RenderLiving<EntityHorse>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderIronGolem.java:9: 错误: 类型RenderLiving不带有参数
+public class RenderIronGolem extends RenderLiving<EntityIronGolem>
+                                                 ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderLeashKnot.java:8: 错误: 类型Render不带有参数
+public class RenderLeashKnot extends Render<EntityLeashKnot>
+                                           ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderLightningBolt.java:11: 错误: 类型Render不带有参数
+public class RenderLightningBolt extends Render<EntityLightningBolt>
+                                               ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderMagmaCube.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderMagmaCube extends RenderLiving<EntityMagmaCube>
+                                                 ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderMinecart.java:14: 错误: 类型Render不带有参数
+public class RenderMinecart<T extends EntityMinecart> extends Render<T>
+                                                                    ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderMooshroom.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderMooshroom extends RenderLiving<EntityMooshroom>
+                                                 ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderOcelot.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderOcelot extends RenderLiving<EntityOcelot>
+                                              ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderPainting.java:14: 错误: 类型Render不带有参数
+public class RenderPainting extends Render<EntityPainting>
+                                          ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderPig.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderPig extends RenderLiving<EntityPig>
+                                           ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSnowball.java:11: 错误: 类型Render不带有参数
+public class RenderSnowball<T extends Entity> extends Render<T>
+                                                            ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderRabbit.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderRabbit extends RenderLiving<EntityRabbit>
+                                              ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSheep.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderSheep extends RenderLiving<EntitySheep>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSilverfish.java:7: 错误: 类型RenderLiving不带有参数
+public class RenderSilverfish extends RenderLiving<EntitySilverfish>
+                                                  ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSlime.java:10: 错误: 类型RenderLiving不带有参数
+public class RenderSlime extends RenderLiving<EntitySlime>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSnowMan.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderSnowMan extends RenderLiving<EntitySnowman>
+                                               ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSquid.java:8: 错误: 类型RenderLiving不带有参数
+public class RenderSquid extends RenderLiving<EntitySquid>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderTNTPrimed.java:12: 错误: 类型Render不带有参数
+public class RenderTNTPrimed extends Render<EntityTNTPrimed>
+                                           ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderVillager.java:9: 错误: 类型RenderLiving不带有参数
+public class RenderVillager extends RenderLiving<EntityVillager>
+                                                ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderWitch.java:10: 错误: 类型RenderLiving不带有参数
+public class RenderWitch extends RenderLiving<EntityWitch>
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderWither.java:11: 错误: 类型RenderLiving不带有参数
+public class RenderWither extends RenderLiving<EntityWither>
+                                              ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderWolf.java:10: 错误: 类型RenderLiving不带有参数
+public class RenderWolf extends RenderLiving<EntityWolf>
+                                            ^
+src\minecraft\net\minecraft\client\renderer\entity\layers\LayerBipedArmor.java:6: 错误: 类型LayerArmorBase不带有参数
+public class LayerBipedArmor extends LayerArmorBase<ModelBiped>
+                                                   ^
+src\minecraft\net\minecraft\client\renderer\entity\layers\LayerBipedArmor.java:8: 错误: 类型RendererLivingEntity不带有参数
+    public LayerBipedArmor(RendererLivingEntity<?> rendererIn)
+                                               ^
+src\minecraft\net\minecraft\client\renderer\entity\layers\LayerHeldItem.java:18: 错误: 类型RendererLivingEntity不带有参数
+    private final RendererLivingEntity<?> livingEntityRenderer;
+                                      ^
+src\minecraft\net\minecraft\client\renderer\entity\layers\LayerHeldItem.java:20: 错误: 类型RendererLivingEntity不带有参数
+    public LayerHeldItem(RendererLivingEntity<?> livingEntityRendererIn)
+                                             ^
+src\minecraft\net\minecraft\client\renderer\entity\layers\LayerVillagerArmor.java:8: 错误: 类型RendererLivingEntity不带有参数
+    public LayerVillagerArmor(RendererLivingEntity<?> rendererIn)
+                                                  ^
+src\minecraft\net\minecraft\client\renderer\tileentity\RenderEnderCrystal.java:12: 错误: 类型Render不带有参数
+public class RenderEnderCrystal extends Render<EntityEnderCrystal>
+                                              ^
+src\minecraft\net\minecraft\client\renderer\tileentity\RenderWitherSkull.java:10: 错误: 类型Render不带有参数
+public class RenderWitherSkull extends Render<EntityWitherSkull>
+                                             ^
+src\minecraft\optifine\OptiFineClassTransformer.java:13: 错误: 程序包net.minecraft.launchwrapper不存在
+import net.minecraft.launchwrapper.IClassTransformer;
+                                  ^
+src\minecraft\optifine\OptiFineClassTransformer.java:15: 错误: 找不到符号
+public class OptiFineClassTransformer implements IClassTransformer, IResourceProvider
+                                                 ^
+  符号: 类 IClassTransformer
+src\minecraft\optifine\OptiFineForgeTweaker.java:5: 错误: 程序包net.minecraft.launchwrapper不存在
+import net.minecraft.launchwrapper.ITweaker;
+                                  ^
+src\minecraft\optifine\OptiFineForgeTweaker.java:6: 错误: 程序包net.minecraft.launchwrapper不存在
+import net.minecraft.launchwrapper.LaunchClassLoader;
+                                  ^
+src\minecraft\optifine\OptiFineForgeTweaker.java:8: 错误: 找不到符号
+public class OptiFineForgeTweaker implements ITweaker
+                                             ^
+  符号: 类 ITweaker
+src\minecraft\optifine\OptiFineForgeTweaker.java:15: 错误: 找不到符号
+    public void injectIntoClassLoader(LaunchClassLoader classLoader)
+                                      ^
+  符号:   类 LaunchClassLoader
+  位置: 类 OptiFineForgeTweaker
+src\minecraft\optifine\OptiFineTweaker.java:6: 错误: 程序包net.minecraft.launchwrapper不存在
+import net.minecraft.launchwrapper.ITweaker;
+                                  ^
+src\minecraft\optifine\OptiFineTweaker.java:7: 错误: 程序包net.minecraft.launchwrapper不存在
+import net.minecraft.launchwrapper.LaunchClassLoader;
+                                  ^
+src\minecraft\optifine\OptiFineTweaker.java:9: 错误: 找不到符号
+public class OptiFineTweaker implements ITweaker
+                                        ^
+  符号: 类 ITweaker
+src\minecraft\optifine\OptiFineTweaker.java:25: 错误: 找不到符号
+    public void injectIntoClassLoader(LaunchClassLoader classLoader)
+                                      ^
+  符号:   类 LaunchClassLoader
+  位置: 类 OptiFineTweaker
+src\minecraft\net\minecraft\world\World.java:3774: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\profiler\Profiler.java:181: 错误: 不兼容的类型: Object无法转换为String
+            for (String s : this.profilingMap.keySet())
+                                                    ^
+src\minecraft\net\minecraft\profiler\Profiler.java:201: 错误: 不兼容的类型: Object无法转换为String
+            for (String s1 : this.profilingMap.keySet())
+                                                     ^
+src\minecraft\net\minecraft\profiler\Profiler.java:213: 错误: 不兼容的类型: Object无法转换为String
+            for (String s3 : this.profilingMap.keySet())
+                                                     ^
+src\minecraft\net\minecraft\world\chunk\Chunk.java:340: 错误: 不兼容的类型: Object无法转换为EnumFacing
+                        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                                     ^
+src\minecraft\net\minecraft\world\chunk\Chunk.java:347: 错误: 不兼容的类型: Object无法转换为EnumFacing
+                        for (EnumFacing enumfacing1 : EnumFacing.Plane.HORIZONTAL)
+                                                                      ^
+src\minecraft\net\minecraft\world\chunk\Chunk.java:496: 错误: 不兼容的类型: Object无法转换为EnumFacing
+                for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                             ^
+src\minecraft\net\minecraft\world\chunk\Chunk.java:1504: 错误: 不兼容的类型: Object无法转换为EnumFacing
+                    for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                                 ^
+src\minecraft\net\minecraft\world\GameRules.java:81: 错误: 不兼容的类型: Object无法转换为String
+        for (String s : this.theGameRules.keySet())
+                                                ^
+src\minecraft\net\minecraft\crash\CrashReport.java:120: 错误: 不兼容的类型: Object无法转换为String
+                for (String s : list)
+                                ^
+src\minecraft\net\minecraft\crash\CrashReport.java:192: 错误: 不兼容的类型: Object无法转换为CrashReportCategory
+        for (CrashReportCategory crashreportcategory : this.crashReportSections)
+                                                           ^
+src\minecraft\net\minecraft\world\gen\feature\WorldGenTrees.java:215: 错误: 不兼容的类型: Object无法转换为EnumFacing
+                                for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                                             ^
+src\minecraft\net\minecraft\block\BlockCactus.java:106: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\block\BlockChest.java:94: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\block\BlockChest.java:281: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing1 : EnumFacing.Plane.HORIZONTAL)
+                                                      ^
+src\minecraft\net\minecraft\block\BlockChest.java:388: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockChest.java:473: 错误: 不兼容的类型: Object无法转换为EnumFacing
+                for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                             ^
+src\minecraft\net\minecraft\block\BlockLiquid.java:155: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\block\BlockLiquid.java:182: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing1 : EnumFacing.Plane.HORIZONTAL)
+                                                          ^
+src\minecraft\net\minecraft\block\BlockDynamicLiquid.java:44: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockDynamicLiquid.java:181: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\block\BlockDynamicLiquid.java:216: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\block\BlockLadder.java:99: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockLever.java:89: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockRailBase.java:394: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockTorch.java:103: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockRedstoneWire.java:134: 错误: 不兼容的类型: Object无法转换为EnumFacing
+        for (EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
+                                                     ^
+src\minecraft\net\minecraft\block\BlockRedstoneWire.java:218: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing : EnumFacing.Plane.VERTICAL)
+                                                         ^
+src\minecraft\net\minecraft\block\BlockRedstoneWire.java:223: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing1 : EnumFacing.Plane.HORIZONTAL)
+                                                          ^
+src\minecraft\net\minecraft\block\BlockRedstoneWire.java:228: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing2 : EnumFacing.Plane.HORIZONTAL)
+                                                          ^
+src\minecraft\net\minecraft\block\BlockRedstoneWire.java:257: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing1 : EnumFacing.Plane.HORIZONTAL)
+                                                          ^
+src\minecraft\net\minecraft\block\BlockRedstoneWire.java:262: 错误: 不兼容的类型: Object无法转换为EnumFacing
+            for (EnumFacing enumfacing2 : EnumFacing.Plane.HORIZONTAL)
+                                                          ^
+src\minecraft\optifine\InstallerFrame.java:89: 警告: [deprecation] Window中的show()已过时
+            installerframe.show();
+                          ^
+注: 某些输入文件使用了未经检查或不安全的操作。
+注: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+注: 某些消息已经过简化; 请使用 -Xdiags:verbose 重新编译以获得完整输出
+100 个错误
+1 个警告
